@@ -9,7 +9,7 @@ import PagesDesktop from './pages/desktop';
 const layout = layoutGenerator({
   mobile: 0,
   tablet: 481,
-  desktop: 769,
+  desktop: 1092,
 });
 
 const OnMobile = layout.is('mobile');

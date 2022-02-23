@@ -1,22 +1,36 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-import { ProfileHeader }from '../../components'
+import { ProfileHeader, DesktopNav } from '../../components'
 
 
 const DesktopHeader = () => {
     return (
-        <HeaderContainer>
-            <ProfileHeader />
-
-        </HeaderContainer>
+        <>
+        <ProfileContainer>
+                <ProfileHeader />
+        </ProfileContainer>
+        <NavContainer>
+                <DesktopNav />
+        </NavContainer>
+        </>
     );
 
 };
 
 export default DesktopHeader;
 
-const HeaderContainer = styled.div({
-    width: '100%',
-    marginTop: '2%',
+const ProfileContainer = styled.div({
+    width: '50%',
+    marginTop: '1%',
+    position: 'relative',
+    display: 'inline-block',
+});
+
+const NavContainer = styled.div({
+    width: '50%',
+    marginTop: '1%',
+    position: 'relative',
+    display: 'inline-block',
+    verticalAlign: 'top',
 });
