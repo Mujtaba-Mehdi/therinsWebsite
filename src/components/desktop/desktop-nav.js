@@ -1,21 +1,81 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import { Link } from '@reach/router';
 
-const DesktopNav = () => {
+
+const DesktopNav = ({ page }) => {
+
     return (
         <>
             <NavBox>
                 <Container>
-                    <h1>Contact</h1>
+                    {
+                        page === "Contact" ?
+                            (
+                                <SelectedLink to="/contact">
+                                    <h1>Contact</h1>
+                                    <hr/>
+                                </SelectedLink>
+                            )
+                            :
+                            (
+                                <NavLink to="/contact">
+                                    <h1>Contact</h1>
+                                </NavLink>
+                            )
+                    }
                 </Container>
                 <Container>
-                    <h1>Blog</h1>
+                    {
+                        page === "Blog" ?
+                            (
+                                <SelectedLink to="/blog">
+                                    <h1>Blog</h1>
+                                    <hr/>
+                                </SelectedLink>
+                            )
+                            :
+                            (
+                                <NavLink to="/blog">
+                                    <h1>Blog</h1>
+                                </NavLink>
+                            )
+                    }
                 </Container>
                 <Container>
-                    <h1>Portfolio</h1>
+                    {
+                        page === "Portfolio" ?
+                            (
+                                <SelectedLink to="/portfolio">
+                                    <h1>Portfolio</h1>
+                                    <hr/>
+                                </SelectedLink>
+                            )
+                            :
+                            (
+                                <NavLink to="/portfolio">
+                                    <h1>Portfolio</h1>
+                                </NavLink>
+                            )
+                    }
                 </Container>
                 <Container>
-                    <h1>About</h1>
+                    {
+                        page === "About" ?
+                            (
+                                <SelectedLink to="/">
+                                    <h1>About</h1>
+                                    <hr/>
+                                </SelectedLink>
+                                
+                            )
+                            :
+                            (
+                                <NavLink to="/">
+                                    <h1>About</h1>
+                                </NavLink>
+                            )
+                    }
                 </Container>
             </NavBox>
         </>
@@ -26,7 +86,6 @@ const DesktopNav = () => {
 export default DesktopNav;
 
 const NavBox = styled.div({
-    //border: '3px solid #BC986A',
     width: '98%',
     float: 'right',
     display: 'block',
@@ -40,4 +99,20 @@ const Container = styled.div({
     fontSize: '100%',
     color: '#FFFFFF',
     fontFamily: 'sans-serif',
+});
+
+const NavLink = styled(Link)({
+    color: '#FFFFFF',
+    textDecoration: 'none',
+    ':hover': {
+        color: '#FBEEC1',
+    },
+});
+
+const SelectedLink = styled(Link)({
+    color: '#FBEEC1',
+    textDecoration: 'none',
+    ':hover': {
+        color: '#FFFFFF',
+    },
 });

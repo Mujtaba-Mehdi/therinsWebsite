@@ -1,14 +1,14 @@
 import React from 'react';
 import { DesktopLayout } from '../../components';
 
-const About = () => {
+const Portfolio = () => {
     return (
 
         <>
-            <DesktopLayout page={"About"} />
+            <DesktopLayout page={"Portfolio"} />
         </>
         
     );
 };
 
-export default About;
+export default Portfolio;
