@@ -177,8 +177,8 @@ const ActivitiesContainer = styled.div({
 const SectionContainer = styled.div({
     display: 'inline-block',
     width: '29%',
-    border: '3px solid #26580F',
-    boxShadow: '5px 5px #BC986A',
+    border: '3px solid #BC986A',
+    boxShadow: '5px 5px #5b3c1e',
     borderRadius: '1em',
 });
 
