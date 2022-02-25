@@ -6,6 +6,7 @@ import About from './about';
 import Portfolio from './portfolio';
 import Blog from './blog';
 import Contact from './contact';
+import Gallery from './gallery';
 
 export default function PagesDesktop() {
   return (
@@ -13,6 +14,7 @@ export default function PagesDesktop() {
       <About path="/" />
       <Portfolio path="/portfolio" />
       <Blog path="/blog" />
+      <Gallery path="/gallery" />
       <Contact path="/contact" />
     </Router>
   );

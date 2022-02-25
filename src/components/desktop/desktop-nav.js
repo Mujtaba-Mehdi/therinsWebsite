@@ -27,6 +27,24 @@ const DesktopNav = ({ page }) => {
                 </Container>
                 <Container>
                     {
+                        page === "Gallery" ?
+                            (
+                                <SelectedLink to="/gallery">
+                                    <h1>Gallery</h1>
+                                    <hr/>
+                                </SelectedLink>
+                                
+                            )
+                            :
+                            (
+                                <NavLink to="/gallery">
+                                    <h1>Gallery</h1>
+                                </NavLink>
+                            )
+                    }
+                </Container>
+                <Container>
+                    {
                         page === "Blog" ?
                             (
                                 <SelectedLink to="/blog">
@@ -96,12 +114,13 @@ const Container = styled.div({
     position: 'relative',
     display: 'inline-block',
     float: 'right',
-    fontSize: '100%',
+    fontSize: '75%',
     color: '#FFFFFF',
     fontFamily: 'sans-serif',
 });
 
 const NavLink = styled(Link)({
+    textAlign: 'center',
     color: '#FFFFFF',
     textDecoration: 'none',
     ':hover': {

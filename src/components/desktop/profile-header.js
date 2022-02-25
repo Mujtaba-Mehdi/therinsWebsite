@@ -7,7 +7,7 @@ const ProfileHeader = () => {
         <HeaderBox>
             <Container>
                 <ImageContainer>
-                    <img src="/images/headshot.jpg" alt="Therin Mody" width='150px' height='150px' />
+                    <img src="/images/headshot.jpg" alt="Therin Mody" width='100px' height='100px' />
                 </ImageContainer>
             </Container>
             <Container>

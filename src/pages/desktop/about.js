@@ -1,14 +1,22 @@
 import React from 'react';
-import { DesktopLayout } from '../../components';
+import styled from '@emotion/styled';
+import { DesktopLayout, AboutPage } from '../../components';
 
 const About = () => {
     return (
 
         <>
             <DesktopLayout page={"About"} />
+            <ContentContainer>
+                <AboutPage/>
+            </ContentContainer>
         </>
         
     );
 };
 
 export default About;
+
+const ContentContainer = styled.div({
+    
+});
