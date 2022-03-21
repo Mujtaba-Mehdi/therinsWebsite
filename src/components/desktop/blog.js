@@ -6,7 +6,7 @@ const BlogPage = () => {
         <ContentContainer>
             <Title>
                 <TitleContent>
-                    <b>Blog Post's</b>
+                    <b>Blog Posts</b>
                 </TitleContent>
             </Title>
 
@@ -27,7 +27,7 @@ const BlogPage = () => {
                             </BlogDescription>
                             <br />
                             <Date>
-                                2021-03-17
+                                2022-03-17
                             </Date>
                         </BlogInfo>
                     </Blog>
@@ -47,7 +47,7 @@ const BlogPage = () => {
                             </BlogDescription>
                             <br />
                             <Date>
-                                2021-02-26
+                                2022-02-26
                             </Date>
                         </BlogInfo>
                     </Blog>
@@ -87,6 +87,7 @@ const BlogsContainer = styled.div({
     width: '50%',
     marginLeft: '50%',
     paddingTop: '2%',
+    fontFamily: 'Helvetica',
 });
 
 const Blog = styled.div({
@@ -99,7 +100,7 @@ const Blog = styled.div({
     boxShadow: '1px 1px #000000',
     backgroundColor: '#FDF6E4',
     ':hover': {
-        border: '5px solid #2887b8',
+        border: '5px solid #FFFFFF',
     },
 });
 

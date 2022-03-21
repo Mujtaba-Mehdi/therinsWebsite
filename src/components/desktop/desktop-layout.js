@@ -24,7 +24,6 @@ export default DesktopLayout;
 const HeaderContainer = styled.div({
     border: '3px solid #BC986A',
     backgroundColor: '#2887b8',
-
 });
 
 const FooterContainer = styled.div({

@@ -27,24 +27,6 @@ const DesktopNav = ({ page }) => {
                 </Container>
                 <Container>
                     {
-                        page === "Gallery" ?
-                            (
-                                <SelectedLink to="/gallery">
-                                    <h1>Gallery</h1>
-                                    <hr/>
-                                </SelectedLink>
-                                
-                            )
-                            :
-                            (
-                                <NavLink to="/gallery">
-                                    <h1>Gallery</h1>
-                                </NavLink>
-                            )
-                    }
-                </Container>
-                <Container>
-                    {
                         page === "Blog" ?
                             (
                                 <SelectedLink to="/blog">

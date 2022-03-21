@@ -240,7 +240,7 @@ const AboutPage = () => {
                             </tr>
                             <tr>
                                 <td width='25%'>Web Development</td>
-                                <td width='25%'>Philosophy</td>
+                                <td width='25%'>Hockey</td>
                                 <td width='25%'>Design</td>
                                 <td width='25%'>Stocks</td>
                             </tr>
@@ -255,6 +255,12 @@ const AboutPage = () => {
                                 <td width='25%'>Rock Music</td>
                                 <td width='25%'>Finance</td>
                                 <td width='25%'>Comedy TV</td>
+                            </tr>
+                            <tr>
+                                <td width='25%'>Philosophy</td>
+                                <td width='25%'>Rugby</td>
+                                <td width='25%'>Toronto Blue Jays</td>
+                                <td width='25%'></td>
                             </tr>
                         </ActivityTable>
                     </ContainerJuice1>
@@ -271,7 +277,7 @@ export default AboutPage;
 
 const Intro = styled.div({
     fontSize: '110%',
-    fontFamily: 'cursive'
+    fontFamily: 'Helvetica'
 });
 
 const SkillsTable = styled.table({
@@ -306,6 +312,7 @@ const Title = styled.div({
     postion: 'relative',
     fontFamily: 'Helvetica',
     float: 'left',
+    
 });
 
 const TitleContent = styled.div({

@@ -41,7 +41,7 @@ const ContentContainer = styled.div({
 
 const Email = styled.div({
     display: 'inline-block',
-    marginTop: '5%',
+    marginTop: '3%',
     marginLeft: '5%',
     marginRight: '5%',
     width: '45%',
