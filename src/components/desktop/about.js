@@ -5,28 +5,28 @@ import styled from '@emotion/styled';
 const AboutPage = () => {
     return (
         <ContentContainer>
-            <PageTitle>
-                <p><b>About me...</b></p>
-            </PageTitle>
+            <Title>
+                <TitleContent>
+                    <b>About me...</b>
+                </TitleContent>
+            </Title>
+            <ObjectiveContainer>
+                <ContainerJuice1>
+                    <h1>Profile</h1>
+                    <hr />
+                    <Intro>
+                        I am Therin Mody. <br /><br />
+                        I am twenty-three years old and located in southern Calgary, Alberta. <br /><br />
+                        I graduate from SAIT's Information Technology program at the end of April 2022. Currently, my GPA resides at 3.8.<br /><br />
+                        I am excited to begin my career in Software Development. <br /><br />
+                        I love designing, developing, and deploying websites on cloud base platforms. However, I also love anything database related. <br /><br />
+                        I work hard.
+                    </Intro>
+                </ContainerJuice1>
+            </ObjectiveContainer>
             <AttributesContainer>
-
-                <ObjectiveContainer>
-                    <ContainerJuice1>
-                        <h1>Profile</h1>
-                        <hr />
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                        </p>
-                    </ContainerJuice1>
-                </ObjectiveContainer>
-
+                <hr />
+                <br />
                 <SectionContainer>
                     <ContainerJuice2>
                         <h1>Education</h1>
@@ -101,12 +101,38 @@ const AboutPage = () => {
                     <ContainerJuice2>
                         <h1>Key Skills</h1>
                         <hr />
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                        </p>
+                        <SkillsTable>
+                            <tbody>
+                                <tr>
+                                    <td>JavaScript</td>
+                                    <td>Java</td>
+                                </tr>
+                                <tr>
+                                    <td>Python</td>
+                                    <td>React</td>
+                                </tr>
+                                <tr>
+                                    <td>SQL</td>
+                                    <td>Node</td>
+                                </tr>
+                                <tr>
+                                    <td>MongoDB</td>
+                                    <td>MySQL</td>
+                                </tr>
+                                <tr>
+                                    <td>SQLPlus</td>
+                                    <td>Oracle</td>
+                                </tr>
+                                <tr>
+                                    <td>Apollo</td>
+                                    <td>Adobe XD</td>
+                                </tr>
+                                <tr>
+                                    <td>GraphQL</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </SkillsTable>
                     </ContainerJuice2>
                 </SectionContainer>
 
@@ -116,44 +142,178 @@ const AboutPage = () => {
                     <ContainerJuice2>
                         <h1>Work Experience</h1>
                         <hr />
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                        </p>
+                        <WorkCard>
+                            <WordContainer2>
+                                <EdTitle>
+                                    <b>Landscape Maintenance</b>
+                                </EdTitle>
+                                <EdSubTitle>
+                                    <i>Auburn Bay Residents Association</i>
+                                </EdSubTitle>
+                                <br />
+                                <WorkTable>
+                                    <tbody>
+                                        <tr>
+                                            <td>Dates:</td>
+                                            <td>
+                                                <EdSubTitle>
+                                                    April 2021 - Sept 2021
+                                                </EdSubTitle>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Reference:</td>
+                                            <td>
+                                                <EdSubTitle>
+                                                    Jesse Bury
+                                                </EdSubTitle>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>
+                                                <EdSubTitle>
+                                                    +1 (587) 436 - 5805
+                                                </EdSubTitle>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </WorkTable>
+                            </WordContainer2>
+                        </WorkCard>
+                        <WorkCard>
+                            <WordContainer2>
+                                <EdTitle>
+                                    <b>Lot Supervisor / Salesman</b>
+                                </EdTitle>
+                                <EdSubTitle>
+                                    <i>Dalhousie Christmas Tree Lot</i>
+                                </EdSubTitle>
+                                <br />
+                                <WorkTable>
+                                    <tbody>
+                                        <tr>
+                                            <td>Dates:</td>
+                                            <td>
+                                                <EdSubTitle>
+                                                    December 2019, 2020, 2021
+                                                </EdSubTitle>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Reference:</td>
+                                            <td>
+                                                <EdSubTitle>
+                                                    Shane Grant
+                                                </EdSubTitle>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>
+                                                <EdSubTitle>
+                                                    +1 (403) 651 - 5383
+                                                </EdSubTitle>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </WorkTable>
+                            </WordContainer2>
+                        </WorkCard>
                     </ContainerJuice2>
                 </SectionContainer>
-
+                <br /> <br />
+                <hr />
                 <ActivitiesContainer>
                     <ContainerJuice1>
+                        
                         <h1>Activites & Interests</h1>
+
                         <hr />
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                        </p>
+
+                        <ActivityTable>
+                            <tr>
+                                <td width='25%'>Chess</td>
+                                <td width='25%'>Reading</td>
+                                <td width='25%'>Travelling</td>
+                                <td width='25%'>Calgary Flames</td>
+                            </tr>
+                            <tr>
+                                <td width='25%'>Web Development</td>
+                                <td width='25%'>Philosophy</td>
+                                <td width='25%'>Design</td>
+                                <td width='25%'>Stocks</td>
+                            </tr>
+                            <tr>
+                                <td width='25%'>Fantasy Football</td>
+                                <td width='25%'>Spanish</td>
+                                <td width='25%'>Clash of Clans</td>
+                                <td width='25%'>Skiing</td>
+                            </tr>
+                            <tr>
+                                <td width='25%'>Puzzles</td>
+                                <td width='25%'>Rock Music</td>
+                                <td width='25%'>Finance</td>
+                                <td width='25%'>Comedy TV</td>
+                            </tr>
+                        </ActivityTable>
                     </ContainerJuice1>
                 </ActivitiesContainer>
 
             </AttributesContainer>
 
-        </ContentContainer>
+        </ContentContainer >
     );
 
 };
 
 export default AboutPage;
 
+const Intro = styled.div({
+    fontSize: '110%',
+    fontFamily: 'cursive'
+});
+
+const SkillsTable = styled.table({
+    width: '100%',
+    textAlign: 'left',
+    fontSize: '150%',
+    marginLeft: '5%',
+    marginRight: '5%',
+});
+
+const ActivityTable = styled.table({
+    width: '100%',
+    fontSize: '150%',
+    marginLeft: '1%',
+    marginRight: '1%',
+});
+
+const WorkTable = styled.table({
+    width: '100%',
+    fontSize: '100%',
+});
+
 const ContentContainer = styled.div({
     marginTop: '0%',
     width: '100%',
+    marginBottom: '5%',
+});
+
+const Title = styled.div({
+    width: '39%',
+    fontSize: '500%',
+    postion: 'relative',
+    fontFamily: 'Helvetica',
+    float: 'left',
+});
+
+const TitleContent = styled.div({
+    textAlign: 'center',
+    marginTop: '30%',
+    marginBottom: '40%',
+    color: '#BC986A',
+    textShadow: '1px 1px #000000',
 });
 
 const AttributesContainer = styled.div({
@@ -161,25 +321,43 @@ const AttributesContainer = styled.div({
     marginLeft: '10%',
     marginRight: '10%',
     fontFamily: 'Arial',
+    display: 'inline-block',
 });
 
 const ObjectiveContainer = styled.div({
-    width: '100%',
+    width: '40%',
+    padding: '1%',
+    float: 'right',
+    marginRight: '10%',
     marginBottom: '2%',
+    marginTop: '5%',
+    border: '3px solid #BC986A',
+    boxShadow: '2px 2px #5b3c1e',
+    borderRadius: '1em',
+    backgroundColor: '#FDF6E4',
+    fontFamily: 'Helvetica',
 });
 
 const ActivitiesContainer = styled.div({
-    width: '100%',
+    width: '98%',
+    padding: '1%',
+    float: 'right',
+    marginBottom: '2%',
     marginTop: '2%',
-    marginBottom: '10%',
+    border: '3px solid #BC986A',
+    boxShadow: '2px 2px #5b3c1e',
+    borderRadius: '1em',
+    backgroundColor: '#FDF6E4',
 });
 
 const SectionContainer = styled.div({
     display: 'inline-block',
     width: '29%',
+    verticalAlign: 'top',
     border: '3px solid #BC986A',
-    boxShadow: '5px 5px #5b3c1e',
+    boxShadow: '2px 2px #5b3c1e',
     borderRadius: '1em',
+    backgroundColor: '#FDF6E4',
 });
 
 const EducationCard = styled.div({
@@ -187,6 +365,18 @@ const EducationCard = styled.div({
     borderRadius: '1em',
     boxShadow: '1px 1px #000000',
     padding: '1%',
+    marginBottom: '2%',
+    color: '#000000',
+    ':hover': {
+        border: '1px solid #2887b8',
+    },
+});
+
+const WorkCard = styled.div({
+    border: '1px solid #BC986A',
+    borderRadius: '1em',
+    boxShadow: '1px 1px #000000',
+    padding: '2%',
     marginBottom: '2%',
     color: '#000000',
 });
@@ -202,8 +392,13 @@ const WordContainer = styled.div({
     width: '75%',
 });
 
+const WordContainer2 = styled.div({
+    display: 'inline-block',
+    width: '100%',
+});
+
 const EdTitle = styled.div({
-    fontSize: '100%',
+    fontSize: '125%',
 });
 
 const EdSubTitle = styled.div({
@@ -223,9 +418,5 @@ const SpacingContainer = styled.div({
     display: 'inline-block',
 });
 
-const PageTitle = styled.div({
-    marginLeft: '10%',
-    fontSize: '250%',
-    fontFamily: 'Helvetica',
-});
+
 

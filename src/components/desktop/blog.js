@@ -72,7 +72,7 @@ const Title = styled.div({
     postion: 'relative',
     fontFamily: 'Helvetica',
     float: 'left',
-    position: 'fixed',
+    //position: 'fixed',
 });
 
 const TitleContent = styled.div({
