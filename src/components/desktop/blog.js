@@ -61,8 +61,8 @@ const BlogPage = () => {
 export default BlogPage;
 
 const ContentContainer = styled.div({
-    width: '99%',
-    margin: '1%',
+    marginTop: '0%',
+    width: '100%',
     marginBottom: '10%',
 });
 
