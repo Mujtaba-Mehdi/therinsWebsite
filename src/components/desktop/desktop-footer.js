@@ -6,7 +6,6 @@ const DesktopFooter = () => {
     return (
         <FooterContent>
             <FooterSection>
-                
                 <p>
                     <b>therinharmenraymody@gmail.com</b>
                 </p>

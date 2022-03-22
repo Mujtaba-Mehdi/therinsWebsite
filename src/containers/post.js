@@ -3,15 +3,25 @@ import styled from '@emotion/styled';
 
 
 const Post = ({ blog }) => {
-    return (
-        <a href={blog.link} target="_blank" rel="noreferrer">
+    if ( blog.title === "empty") {
+        return (
             <PostContainer>
-                <PostTitle><b>{blog.title}</b><hr /></PostTitle>
-                <PostDescription>{blog.description}</PostDescription>
+                <PostTitle><b>More coming soon...</b></PostTitle>
+                <PostDescription></PostDescription>
+                <PostDate></PostDate>
             </PostContainer>
-        </a>
-    );
-
+        );
+    } else {
+        return (
+            <a href={blog.link} target="_blank" rel="noreferrer">
+                <PostContainer>
+                    <PostTitle><b>{blog.title}</b><hr /></PostTitle>
+                    <PostDescription>{blog.description}</PostDescription>
+                    <PostDate><b>{blog.date}</b></PostDate>
+                </PostContainer>
+            </a>
+        );
+    };
 };
 
 export default Post;
@@ -42,4 +52,10 @@ const PostTitle = styled.div({
 
 const PostDescription = styled.div({
     fontFamily: 'Arial, Helvetica, sans-serif',
+    fontSize: '115%',
+});
+
+const PostDate = styled.div({
+    fontFamily: 'Arial, Helvetica, sans-serif',
+    float: 'right',
 });

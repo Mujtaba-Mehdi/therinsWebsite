@@ -23,6 +23,8 @@ const Blog = () => {
                 </Title>
 
                 <Posts>
+                    <hr/>
+                    <br />
                     {Blogs.blogs.map((blog) => (
                         <Post blog={blog} />
                     ))}
@@ -37,6 +39,7 @@ export default Blog;
 const ContentContainer = styled.div({
     marginTop: '2%',
     width: '100%',
+    marginBottom: '10%'
 });
 
 const Title = styled.div({
