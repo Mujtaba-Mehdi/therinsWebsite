@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 
 const ProfileHeader = () => {
     return (
-        <HeaderBox>
+        <>
             <Container>
                 <ImageContainer>
                     <img src="/images/headshot.jpg" alt="Therin Mody" width='100px' height='100px' />
@@ -16,26 +16,22 @@ const ProfileHeader = () => {
                         <i>Full Stack Web Developer</i> <br />
                         <PicLink>
                             <a href="https://github.com/therinMody">
-                                <img src="/images/github.jpg" alt="Go to Therin's Github" width='40px' height='40px' />
+                                <img src="/images/git.png" alt="Go to Therin's Github" width='40px' height='40px' />
                             </a>
                         </PicLink>
                         <PicLink>
                             <a href="https://www.linkedin.com/in/therin-mody-3b16b51b5/">
-                                <img src="/images/linkedIn.jpg" alt="Go to Therin's LinkedIn" width='40px' height='40px' />
+                                <img src="/images/linkedin.png" alt="Go to Therin's LinkedIn" width='45px' height='45px' />
                             </a>
                         </PicLink>
                 </ProfileContent>
             </Container>
-        </HeaderBox>
+        </>
     );
 
 };
 
 export default ProfileHeader;
-
-const HeaderBox = styled.div({
-    //border: '3px solid #BC986A',
-});
 
 const Container = styled.div({
     marginLeft: '2%',
@@ -56,14 +52,14 @@ const ProfileContent = styled.div({
     fontSize: '180%',
 });
 
-
 const PicLink = styled.div({
     display: 'inline-block',
+    verticalAlign: 'middle',
     marginLeft: '1%',
-    border: '3px solid #2887b8',
+    //border: '3px solid #2887b8',
     borderRadius: '25%',
     overflow: 'hidden',
-    ':hover': {
-        border: '3px solid #FFFFFF',
-    },
+    //':hover': {
+        //border: '3px solid #FFFFFF',
+    //},
 });

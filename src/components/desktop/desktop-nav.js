@@ -96,7 +96,7 @@ const Container = styled.div({
     position: 'relative',
     display: 'inline-block',
     float: 'right',
-    fontSize: '75%',
+    fontSize: '100%',
     color: '#FFFFFF',
     fontFamily: 'sans-serif',
 });

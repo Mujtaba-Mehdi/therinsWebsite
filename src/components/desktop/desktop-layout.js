@@ -23,13 +23,14 @@ export default DesktopLayout;
 
 const HeaderContainer = styled.div({
     border: '3px solid #BC986A',
-    backgroundColor: '#2887b8',
+    background: 'linear-gradient(45deg, #2a9df4, #187bcd, #1167b1, #03254c)',
+    animation: 'gradient 1s ease infinite',
 });
 
 const FooterContainer = styled.div({
     bottom: '0',
     position: 'fixed',
-    backgroundColor: '#BC986A',
-    border: '1px solid #000000',
-    width: '100%',
+    background: 'linear-gradient(45deg, #03254c, #1167b1, #187bcd, #2a9df4 )',
+    border: '3px solid #BC986A',
+    width: '99.8%',
 });

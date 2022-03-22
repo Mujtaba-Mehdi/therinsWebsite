@@ -1,0 +1,16 @@
+{
+    "blogs": [
+        {
+            "title": "Continuing with GraphQL and Apollo",
+            "description": "A continuation of Starting with GraphQL and Apollo. In this tutorial we add another feature to the application that displays players ranked by their fantasy score for a given date. Here, you will learn how to make GraphQL queries with arguments.",
+            "date": "2022-03-17",
+            "link": "https://therinmody.github.io/ContinuingBlogPost/"
+        },
+        {
+            "title": "Starting with GraphQL and Apollo",
+            "description": "A tutorial for starting development with Apollo GraphQL. On the server side, you learn how to develop an Apollo Server and make API calls. On the client side, you learn how to use the 'useQuery' react hook to display the data retrieved from the API endpoint.",
+            "date": "2022-03-17",
+            "link": "https://therinmody.github.io/GettingStartedBlogPost/"
+        }
+    ]
+}

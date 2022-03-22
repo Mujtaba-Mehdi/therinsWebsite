@@ -44,7 +44,7 @@ const Email = styled.div({
     marginTop: '3%',
     marginLeft: '5%',
     marginRight: '5%',
-    width: '45%',
+    width: '35%',
     border: '5px solid #BC986A',
     borderRadius: '1em',
     padding: '2%',
@@ -58,22 +58,21 @@ const EmailTitle = styled.div({
 });
 
 const EmailContent = styled.div({
-    fontSize: '250%',
+    fontSize: '200%',
 });
 
 const Title = styled.div({
-    width: '39%',
+    width: '100%',
     fontSize: '500%',
     postion: 'relative',
     fontFamily: 'Helvetica',
-    float: 'left',
     display: 'inline-block',
+    marginTop: '1%',
+    marginBottom: '1%',
 });
 
 const TitleContent = styled.div({
     textAlign: 'center',
-    marginTop: '30%',
-    marginBottom: '40%',
     color: '#BC986A',
     textShadow: '1px 1px #000000',
 });

@@ -11,76 +11,76 @@ const PortfolioPage = () => {
             </Title>
 
             <ProjectContainer>
-                    <Project>
-                        <ProjectInfo>
-                            <ProjectTitle>
-                                <b>Solar Power Adminstration</b>
-                            </ProjectTitle>
-                            <hr />
-                            <br />
-                            <ProjectDescription>
-                                My groups capstone project for SAIT's Information technology program. The Solar Power Adminstration
-                                project is MVC web application for the purpose of facility data display, reporting, and archival. It was 
-                                built using Java on the backend. HTML, CSS, and Javascript on the frontend. We use Apache HTTP server and process
-                                requests using servlets. The web application will be deployed using AWS technolgies: Elastic Beanstalk and Relational Database Service.
-                                We signed an NDA for this project. So sadly, I cannot share the code or the web application with you.
-                            </ProjectDescription>
-                            <br />
-                            <Date>
-                                2022-04-12
-                            </Date>
-                        </ProjectInfo>
-                    </Project>
+                <Project>
+                    <ProjectInfo>
+                        <ProjectTitle>
+                            <b>Solar Power Adminstration</b>
+                        </ProjectTitle>
+                        <hr />
+                        <br />
+                        <ProjectDescription>
+                            My groups capstone project for SAIT's Information technology program. The Solar Power Adminstration
+                            project is a Solar Facility Monitoring System built as a MVC web application. The purpose of the web application is facility data display,
+                            reporting, and archival. It was built using Java on the backend. HTML, CSS, and Javascript on the frontend. We use Apache HTTP server and process
+                            requests using servlets. The web application will be deployed using AWS technolgies: Elastic Beanstalk and Relational Database Service.
+                            We signed an NDA for this project. So sadly, I cannot share the code or the web application with you.
+                        </ProjectDescription>
+                        <br />
+                        <Date>
+                            2022-04-12
+                        </Date>
+                    </ProjectInfo>
+                </Project>
 
-                    <Project>
-                        <ProjectInfo>
-                            <ProjectTitle>
-                                <b>Therin Mody's Website</b>
-                            </ProjectTitle>
-                            <hr />
-                            <br />
-                            <ProjectDescription>
-                                This project is what you are currently viewing. I learned that the industry of Web Development
-                                evolves extremely fast. I realized that React is currently in fashion and completed tutorials to learn it.
-                                This website is as a React application. I use the emotion package for styling. I personally built all the React components
-                                for practice. The Reach Router for page routing. I also use the layoutGenerator for page scaling on different devices.
-                                You are viewing version: Mock One. Will I regret not implementing a backend and MongoDB to make quick
-                                updates? Yes, I already do and will rewrite the codebase in version: Mock Two. 
-                            </ProjectDescription>
-                            <br />
-                            <GitHubLink>
-                                Source code: <a href="https://github.com/therinMody/therinsWebsite">therinMody/therinsWebsite Repository</a>
-                            </GitHubLink>
-                            <br />
-                            <Date>
-                                2022-04-01
-                            </Date>
-                        </ProjectInfo>
-                    </Project>
+                <Project>
+                    <ProjectInfo>
+                        <ProjectTitle>
+                            <b>Therin Mody's Website</b>
+                        </ProjectTitle>
+                        <hr />
+                        <br />
+                        <ProjectDescription>
+                            This project is what you are currently viewing. I learned that the industry of Web Development
+                            evolves extremely fast. I realized that React is currently in fashion and completed tutorials to learn it.
+                            This website is as a React application. I use the emotion package for styling. I personally built all the React components
+                            for practice. The Reach Router for page routing. I also use the layoutGenerator for page scaling on different devices.
+                            You are viewing version: Mock One. Will I regret not implementing a backend and MongoDB to make quick
+                            updates? Yes, I already do and will rewrite the codebase in version: Mock Two.
+                        </ProjectDescription>
+                        <br />
+                        <GitHubLink>
+                            Source code: <a href="https://github.com/therinMody/therinsWebsite">therinMody/therinsWebsite Repository</a>
+                        </GitHubLink>
+                        <br />
+                        <Date>
+                            2022-04-01
+                        </Date>
+                    </ProjectInfo>
+                </Project>
 
-                    <Project>
-                        <ProjectInfo>
-                            <ProjectTitle>
-                                <b>NFL Stuff</b>
-                            </ProjectTitle>
-                            <hr />
-                            <br />
-                            <ProjectDescription>
-                                This project is what I used to learn GraphQL and Apollo. A bonus was also practicing React because
-                                this was also my first solo project using React. I used a Schema First design approach for this project.
-                                The project has two use cases: Displaying all active teams in a card grid, and searching by date for player fantasy football scores.
-                            </ProjectDescription>
-                            <br />
-                            <GitHubLink>
-                                Source code: <a href="https://github.com/therinMody/NFLStuff">therinMody/NFLStuff Repository</a>
-                            </GitHubLink>
-                            <br />
-                            <Date>
-                                2022-03-21
-                            </Date>
-                        </ProjectInfo>
-                    </Project>
-                    
+                <Project>
+                    <ProjectInfo>
+                        <ProjectTitle>
+                            <b>NFL Stuff</b>
+                        </ProjectTitle>
+                        <hr />
+                        <br />
+                        <ProjectDescription>
+                            This project is what I used to learn GraphQL and Apollo. A bonus was also practicing React because
+                            this was also my first solo project using React. I used a Schema First design approach for this project.
+                            The project has two use cases: Displaying all active teams in a card grid, and searching by date for player fantasy football scores.
+                        </ProjectDescription>
+                        <br />
+                        <GitHubLink>
+                            Source code: <a href="https://github.com/therinMody/NFLStuff">therinMody/NFLStuff Repository</a>
+                        </GitHubLink>
+                        <br />
+                        <Date>
+                            2022-03-21
+                        </Date>
+                    </ProjectInfo>
+                </Project>
+
             </ProjectContainer>
 
         </ContentContainer>
@@ -101,34 +101,30 @@ const GitHubLink = styled.div({
 });
 
 const Title = styled.div({
-    width: '39%',
+    width: '100%',
     fontSize: '500%',
     postion: 'relative',
     fontFamily: 'Helvetica',
-    float: 'left',
     display: 'inline-block',
-    //position: 'fixed',
+    marginTop: '1%',
+    marginBottom: '1%',
 });
 
 const TitleContent = styled.div({
     textAlign: 'center',
-    marginTop: '30%',
-    marginBottom: '40%',
     color: '#BC986A',
     textShadow: '1px 1px #000000',
 });
 
 const ProjectContainer = styled.div({
-    width: '50%',
-    marginLeft: '50%',
-    paddingTop: '2%',
+    width: '80%',
+    marginLeft: '10%',
+    marginRight: '10%',
     fontFamily: 'Helvetica',
 });
 
 const Project = styled.div({
-    width: '80%',
-    marginRight: '20%',
-    marginBottom: '5%',
+    marginTop: '5%',
     border: '5px solid #BC986A',
     borderRadius: '1em',
     padding: '1%',
@@ -147,7 +143,10 @@ const Date = styled.div({
 });
 
 const ProjectDescription = styled.div({
-    fontSize: '110%',
+    fontSize: '120%',
+    width: '80%',
+    marginLeft: '10%',
+    marginRight: '10%',
     color: '#000000',
 });
 
