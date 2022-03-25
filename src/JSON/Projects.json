@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "title": "Solar Plant Monitoring System",
+            "description": "My groups capstone project for SAIT's Information technology program. The Solar Power Adminstration project is a Solar Facility Monitoring System built as a MVC web application. The purpose of the web application is facility data display, reporting, and archival. It was built using Java on the backend. HTML, CSS, and Javascript on the frontend. We use Apache HTTP server and process requests using servlets. The web application will be deployed using AWS technolgies: Elastic Beanstalk and Relational Database Service. We signed an NDA for this project. So sadly, I cannot share the code or the web application with you.",
+            "date": "2022-04-12",
+            "img1": "url",
+            "img2": "url",
+            "img3": "url",
+            "img4": "url",
+            "link": "not available"
+        },
+        {
+            "title": "NFL Stuff",
+            "description": "This project is what I used to learn GraphQL and Apollo. A bonus was also practicing React because this was also my first solo project using React. I used a Schema First design approach for this project. The project has two use cases: Displaying all active teams in a card grid, and searching by date for player fantasy football scores.",
+            "date": "2022-03-15",
+            "img1": "url",
+            "img2": "url",
+            "img3": "url",
+            "img4": "url",
+            "link": "not available"
+        },
+        {
+            "title": "Solar Plant Monitoring System",
+            "description": "My groups capstone project for SAIT's Information technology program. The Solar Power Adminstration project is a Solar Facility Monitoring System built as a MVC web application. The purpose of the web application is facility data display, reporting, and archival. It was built using Java on the backend. HTML, CSS, and Javascript on the frontend. We use Apache HTTP server and process requests using servlets. The web application will be deployed using AWS technolgies: Elastic Beanstalk and Relational Database Service. We signed an NDA for this project. So sadly, I cannot share the code or the web application with you.",
+            "date": "2022-04-12",
+            "img1": "url",
+            "img2": "url",
+            "img3": "url",
+            "img4": "url",
+            "link": "not available"
+        }
+    ]
+}
