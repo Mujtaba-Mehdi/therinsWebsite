@@ -15,12 +15,12 @@ const ProfileHeader = () => {
                     <b>Therin Mody</b> <br />
                         <i>Full Stack Web Developer</i> <br />
                         <PicLink>
-                            <a href="https://github.com/therinMody">
+                            <a href="https://github.com/therinMody" target="_blank" rel="noreferrer">
                                 <img src="/images/git.png" alt="Go to Therin's Github" width='40px' height='40px' />
                             </a>
                         </PicLink>
                         <PicLink>
-                            <a href="https://www.linkedin.com/in/therin-mody-3b16b51b5/">
+                            <a href="https://www.linkedin.com/in/therin-mody-3b16b51b5/" target="_blank" rel="noreferrer">
                                 <img src="/images/linkedin.png" alt="Go to Therin's LinkedIn" width='45px' height='45px' />
                             </a>
                         </PicLink>

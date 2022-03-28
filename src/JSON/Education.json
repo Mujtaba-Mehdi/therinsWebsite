@@ -1,0 +1,32 @@
+{
+    "certifications": [
+        {
+            "name": "Information Technology, Software Development Major",
+            "link": "https://www.sait.ca/programs-and-courses/diplomas/information-technology",
+            "img": "/images/sait.png",
+            "school": "SAIT",
+            "description": "I loved this program. The main concepts covered are object orientated programming, database adminstration, and web development. They also throw in an occasional fun class like Interface design and Communications. I graduated with a GPA of 3.8."
+        },
+        {
+            "name": "IBM Full Stack Cloud Developer",
+            "link": "https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer",
+            "img": "/images/IBM.png",
+            "school": "Coursera",
+            "description": "This was my first experience with a lot of modern web dev tech. React, Docker, JSON objects, Cloud infrastructure, and Python. Taking a application from development through scaling to deployment on IBM Cloud."
+        },
+        {
+            "name": "MERN Stack - The Complete Guide",
+            "link": "https://www.udemy.com/course/mern-stack-the-complete-guide/",
+            "img": "/images/udemy.png",
+            "school": "Udemy",
+            "description": "MERN - MongoDB, Express, React, Node. In this tutorial style course, I learned how to develop an ecommerce store. This was also my first time working without a SQL database, couldn't believe how efficient Mongo is."
+        },
+        {
+            "name": "Graph Developer - Associate",
+            "link": "https://odyssey.apollographql.com/",
+            "img": "/images/apollo.png",
+            "school": "Apollo GraphQL",
+            "description": "In this five course tutorial I became familiar with GraphQL and some of Apollo's features. This tutorial helped me step up my development game by becoming familiar with Schema first design."
+        }         
+    ]
+}

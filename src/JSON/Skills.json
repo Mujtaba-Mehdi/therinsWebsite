@@ -1,0 +1,37 @@
+{
+    "skills": [
+        {
+            "skill": "JavaScript"
+        },
+        {
+            "skill": "Java"
+        },
+        {
+            "skill": "SQL"
+        },
+        {
+            "skill": "React"
+        },
+        {
+            "skill": "MongoDB"
+        },
+        {
+            "skill": "Node"
+        },
+        {
+            "skill": "Oracle"
+        },
+        {
+            "skill": "Apollo"
+        },
+        {
+            "skill": "GraphQL"
+        },
+        {
+            "skill": "Adobe XD"
+        },
+        {
+            "skill": "Python"
+        }       
+    ]
+}

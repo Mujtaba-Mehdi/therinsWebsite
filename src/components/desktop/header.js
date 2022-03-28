@@ -4,15 +4,15 @@ import styled from '@emotion/styled';
 import { ProfileHeader, DesktopNav } from '../../components'
 
 
-const DesktopHeader = ({page}) => {
+const DesktopHeader = ({ page }) => {
     return (
         <>
-        <ProfileContainer>
+            <ProfileContainer id='top'>
                 <ProfileHeader />
-        </ProfileContainer>
-        <NavContainer>
-                <DesktopNav page={page}/>
-        </NavContainer>
+            </ProfileContainer>
+            <NavContainer>
+                <DesktopNav page={page} />
+            </NavContainer>
         </>
     );
 

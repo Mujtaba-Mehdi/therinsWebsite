@@ -1,0 +1,16 @@
+{
+    "services": [
+        {
+            "service": "Business websites",
+            "description": "Need a website from scratch or upgrade an existing model? I am here to design and develop a website to your every need."
+        },
+        {
+            "service": "E-commerce web applications",
+            "description": "Web applications built using modern day languages and optimal security procedures."
+        },
+        {
+            "service": "SQL Database creation and maintenance",
+            "description": "I will ensure that every piece of valuable information you need is stored and accesible."
+        }      
+    ]
+}

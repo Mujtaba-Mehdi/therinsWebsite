@@ -39,7 +39,7 @@ export default Blog;
 const ContentContainer = styled.div({
     marginTop: '2%',
     width: '100%',
-    marginBottom: '10%'
+    marginBottom: '5%'
 });
 
 const Title = styled.div({
